@@ -27,7 +27,7 @@ fs.readFile(path.join(__dirname,"../db/db.json"),"utf8",function(err,data){
         if (err) throw err;
         console.log('Saved!');
         res.status(201).json(newNote);
-      });
+    });
 })
 
     
